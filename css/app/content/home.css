@@ -1,0 +1,103 @@
+.title-page {
+    background-color: #F6F8F8;
+    padding: 20px 20px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.152);
+}
+
+.title-page h1 {
+    font-weight: 100;
+    font-size: 25px;
+    margin: 0;
+}
+
+.container-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px 0px;
+}
+
+.content-area {
+    width: 97%;
+    background-color: #fff;
+    border: 1px solid rgba(51, 51, 51, 0.152);
+    padding: 20px;
+}
+
+.info-content {
+    width: 97%;
+    background-color: #F6F8F8;
+    border-radius: 5px 5px 0px 0px;
+    border-left: 1px solid rgba(51, 51, 51, 0.152);
+    border-right: 1px solid rgba(51, 51, 51, 0.152);
+    border-top: 1px solid rgba(51, 51, 51, 0.152);
+}
+
+.info-content h1 {
+    font-size: 16px;
+    padding: 8px 10px;
+    margin: 0px;
+}
+
+.cadastro-container {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.cadastro-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    width: 100%;
+}
+
+.cadastro-content input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cadastro-content select {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+}
+
+.cadastro-content input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: #3c778313;
+}
+
+.cadastro-content select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: #3c778313;
+}
+
+@media(max-width:414px) {
+    .cadastro-container {
+        flex-wrap: wrap;
+    }
+}
+
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-cadastrar {
+    border: none;
+    background-color: #10F9BB;
+    color: #10546A;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.btn-cancelar {
+    border: none;
+    background-color: rgba(238, 117, 117, 0.685);
+    color: #10546A;
+    padding: 8px;
+    border-radius: 8px;
+}

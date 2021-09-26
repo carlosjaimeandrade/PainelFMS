@@ -1,0 +1,72 @@
+.aside {
+    background-color: #fff;
+}
+
+.aside-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside-option li:hover {
+    cursor: pointer;
+}
+
+.aside-option i {
+    font-size: 16px;
+    font-weight: 900;
+    margin: 10px 0px;
+}
+
+.aside-option li:hover {
+    margin: 1px;
+}
+
+.aside-option ul {
+    width: 100%;
+    text-align: center;
+}
+
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul {
+    color: rgb(9, 9, 179);
+}
+
+.title-aside {
+    color: rgb(169, 169, 169);
+    padding: 6px;
+}
+
+.title-aside span {
+    font-size: 12px;
+}
+
+.infMenu {
+    display: none;
+    margin: 0px 15px;
+    font-size: 15px;
+}
+
+.aside-option li {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+
+.container-aside {
+    position: fixed;
+}
+
+@media(max-width:768px) {
+    .aside {
+        display: none;
+    }
+}

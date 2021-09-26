@@ -1,0 +1,13 @@
+
+# HTID:7986434: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:7986434:
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

@@ -1,0 +1,45 @@
+body {
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #F0F3F4;
+}
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+    grid-template-areas: "header header" "aside main" "footer footer"
+}
+
+.app2 {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 50px 1fr 50px;
+    height: 100vh;
+    grid-template-areas: "header header" "aside main" "footer footer"
+}
+
+.header {
+    grid-area: header;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+@media(max-width:768px) {
+    .app {
+        grid-template-columns: 0px 1fr;
+        grid-template-areas: "header header" "aside main" "footer footer"
+    }
+}
